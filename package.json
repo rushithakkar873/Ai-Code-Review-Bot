@@ -1,0 +1,38 @@
+{
+  "name": "ai-code-review-bot",
+  "version": "1.0.0",
+  "description": "AI-powered code review bot using ESLint and OpenAI for GitHub PRs",
+  "main": "dist/reviewBot.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/reviewBot.js",
+    "dev": "ts-node src/reviewBot.ts",
+    "lint": "eslint src/**/*.ts",
+    "lint:fix": "eslint src/**/*.ts --fix"
+  },
+  "keywords": [
+    "github-actions",
+    "code-review",
+    "eslint",
+    "openai",
+    "typescript"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "@octokit/rest": "^20.0.2",
+    "openai": "^4.20.1",
+    "eslint": "^8.55.0",
+    "@typescript-eslint/eslint-plugin": "^6.14.0",
+    "@typescript-eslint/parser": "^6.14.0",
+    "simple-git": "^3.20.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.3.3",
+    "ts-node": "^10.9.1",
+    "@types/node": "^20.10.4"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
