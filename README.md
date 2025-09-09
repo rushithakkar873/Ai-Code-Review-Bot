@@ -20,8 +20,8 @@ An intelligent GitHub Action that automatically reviews Pull Requests using **ES
 ### 1. Fork or Clone This Repository
 
 ```bash
-git clone https://github.com/yourusername/ai-code-review-bot.git
-cd ai-code-review-bot
+git clone https://github.com/rushithakkar873/Ai-Code-Review-Bot.git
+cd Ai-Code-Review-Bot
 ```
 
 ### 2. Install Dependencies
@@ -227,9 +227,9 @@ export DEBUG=true
 
 ## 📞 Support
 
-- 🐛 **Issues**: [GitHub Issues](https://github.com/yourusername/ai-code-review-bot/issues)
-- 💬 **Discussions**: [GitHub Discussions](https://github.com/yourusername/ai-code-review-bot/discussions)
-- 📧 **Contact**: your-email@example.com
+- 🐛 **Issues**: [GitHub Issues](https://github.com/rushithakkar873/Ai-Code-Review-Bot/issues)
+- 💬 **Discussions**: [GitHub Discussions](https://github.com/rushithakkar873/Ai-Code-Review-Bot/discussions)
+- 📧 **Contact**: rushi.thakkar873@gmail.com
 
 ---
 
