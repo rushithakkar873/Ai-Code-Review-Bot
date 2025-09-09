@@ -37,6 +37,7 @@ class AICodeReviewBot {
     this.octokit = new Octokit({ auth: githubToken });
     this.openai = new OpenAI({ apiKey: openaiApiKey });
     this.eslint = new ESLint({
+      // @ts-ignore
       useEslintrc: true,
       fix: false
     });
